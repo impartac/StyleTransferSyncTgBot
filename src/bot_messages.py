@@ -7,3 +7,5 @@ class BotMessages:
     request_another_image = f"Accepted. Send me style image!"
     waiting_result = f"Accepted. Wait a result"
     no_image = f"We aren't waiting your image."
+    continue_start = f"If you would like to continue, send first image."
+    goodbye = f"Thank you for using my bot. See you later..."

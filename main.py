@@ -22,14 +22,14 @@ print(device)
 def start(message):
     state_dictionary[message.from_user.id] = State.first_image_waiting
     bot.send_message(message.from_user.id, bot_messages.intro)
-    print(message.from_user.id,message.text)
+    print(message.from_user.id, message.text)
     images_path[message.from_user.id] = [None, None]
 
 
 # Text reaction :)
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
-    print(message.from_user.id,message.text)
+    print(message.from_user.id, message.text)
     if message.from_user.id not in state_dictionary:
         bot.send_message(message.from_user.id, bot_messages.question)
         return
@@ -63,7 +63,8 @@ def get_image_messages(message):
                              user_id=message.from_user.id,
                              images_path=images_path[message.from_user.id],
                              bot=bot)
-        state_dictionary[message.from_user.id] = State.stop
+        state_dictionary[message.from_user.id] = State.first_image_waiting
+        bot.send_message(message.from_user.id, bot_messages.continue_start)
     return 0
 
 
@@ -71,6 +72,7 @@ def get_image_messages(message):
 def stop(message):
     state_dictionary.pop(message.from_user.id)
     images_path.pop(message.from_user.id)
+    bot.send_message(message.from_user.id, bot_messages.goodbye)
 
 
 # Update chats
