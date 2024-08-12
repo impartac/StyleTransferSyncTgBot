@@ -31,15 +31,15 @@ I think the best values is
 If you want to use gpu for your model, you need to set conda interpretator(other 3rd step) and install requirements.txt.
 # Examples
 image
-<img src = "https://github.com/user-attachments/assets/6b575d5b-fa8e-46af-9e6c-1d05a805867b", widght = "200"/>
+<img src="https://github.com/user-attachments/assets/6b575d5b-fa8e-46af-9e6c-1d05a805867b" widght = "200"/>
 style
-<img src = "https://github.com/user-attachments/assets/8a691ac0-2b1b-4ed4-8c34-acc488d6c898", widght = "200"/>
+<img src="https://github.com/user-attachments/assets/8a691ac0-2b1b-4ed4-8c34-acc488d6c898" widght = "200"/>
 result
-<img src = "https://github.com/user-attachments/assets/a6416b48-670d-4cc8-b02c-5429133862ad", widght = "200"/>
+<img src="https://github.com/user-attachments/assets/a6416b48-670d-4cc8-b02c-5429133862ad" widght = "200"/>
 
 image
-<img src = "https://github.com/user-attachments/assets/dcd53b9b-988f-4dd7-a8cc-e30256bf5e1e", widght = "200"/>
+<img src="https://github.com/user-attachments/assets/dcd53b9b-988f-4dd7-a8cc-e30256bf5e1e" widght = "200"/>
 style
-<img src = "https://github.com/user-attachments/assets/d3e999b9-164c-46d9-b0f4-4c89088c8acd", widght = "200"/>
+<img src="https://github.com/user-attachments/assets/d3e999b9-164c-46d9-b0f4-4c89088c8acd" widght = "200"/>
 result
-<img src = "(https://github.com/user-attachments/assets/ce683203-1a36-4fcb-99a4-5dff08bda038", widght = "200"/>
+<img src="(https://github.com/user-attachments/assets/ce683203-1a36-4fcb-99a4-5dff08bda038" widght = "200"/>
