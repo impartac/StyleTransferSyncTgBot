@@ -29,3 +29,10 @@ I think the best values is
 (Values depend from your pc)
 
 If you want to use gpu for your model, you need to set conda interpretator(other 3rd step) and install requirements.txt.
+# Examples
+![image](https://github.com/user-attachments/assets/5e324196-7c75-43f1-a6fd-3ec45eea75ab) ![image](https://github.com/user-attachments/assets/daa64006-4a29-4c11-b454-1588f8a7ac62) ![image](https://github.com/user-attachments/assets/11a67faf-2deb-4208-8474-2c560d19276b)
+![image](https://github.com/user-attachments/assets/805118e1-74b0-4896-a22e-209131d1a746) ![image](https://github.com/user-attachments/assets/0ef08603-ed31-4323-84a9-e5bba8aeb243) ![image](https://github.com/user-attachments/assets/1a2e7866-b1bd-46dd-a857-15b9019945ab)
+
+
+
+
