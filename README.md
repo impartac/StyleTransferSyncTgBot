@@ -1,7 +1,7 @@
 ﻿# StyleTransferSyncTgBot
 This is telegram-bot, which works with images. It transfers style from second image to first and get a result. It really works good, but spend a lot of time and resourses, if you deploy it localy.
 # Realisation
-I use model VGG19 to get features from images.
+I use model VGG19 to get features from images. (I have tasted a VGG16, for my own opinion 16version is better)
 # How to install
 1. Copy repository
 ```git clone https://github.com/impartac/StyleTransferSyncTgBot```
