@@ -37,10 +37,10 @@ If you want to use gpu for your model, you need to set conda interpretator(other
   <img src="https://github.com/user-attachments/assets/a6416b48-670d-4cc8-b02c-5429133862ad" height = "200">
 </p>
 <p>
-  <img src="https://github.com/user-attachments/assets/dcd53b9b-988f-4dd7-a8cc-e30256bf5e1e" height = "160">
-  <img src="https://github.com/user-attachments/assets/d3e999b9-164c-46d9-b0f4-4c89088c8acd" height = "160">
+  <img src="https://github.com/user-attachments/assets/dcd53b9b-988f-4dd7-a8cc-e30256bf5e1e" height = "150">
+  <img src="https://github.com/user-attachments/assets/d3e999b9-164c-46d9-b0f4-4c89088c8acd" height = "150">
   ------------>
-  <img src="https://github.com/user-attachments/assets/ce683203-1a36-4fcb-99a4-5dff08bda038" height = "160">
+  <img src="https://github.com/user-attachments/assets/ce683203-1a36-4fcb-99a4-5dff08bda038" height = "150">
 </p>
 
 
