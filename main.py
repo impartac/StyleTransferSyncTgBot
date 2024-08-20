@@ -26,6 +26,12 @@ def start(message):
     images_path[message.from_user.id] = [None, None]
 
 
+@bot.message_handler(commands=['stop'])
+def stop(message):
+    state_dictionary.pop(message.from_user.id)
+    images_path.pop(message.from_user.id)
+    bot.send_message(message.from_user.id, bot_messages.goodbye)
+
 # Text reaction :)
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
@@ -68,11 +74,6 @@ def get_image_messages(message):
     return 0
 
 
-@bot.message_handler(commands=['stop'])
-def stop(message):
-    state_dictionary.pop(message.from_user.id)
-    images_path.pop(message.from_user.id)
-    bot.send_message(message.from_user.id, bot_messages.goodbye)
 
 
 # Update chats
